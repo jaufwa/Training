@@ -1,0 +1,24 @@
+﻿@model LuceneTraining.Models.SampleData
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Search</h2>
+@using ( Html.BeginForm() )
+{
+    @Html.TextBoxFor(model => model.Description)
+    <input type="submit" value="Go" />
+}
+
+@{
+    if (ViewBag.ShowResults == true)
+    {
+        <h2>Your results for @(Model.Description)</h2>
+        foreach (LuceneTraining.Models.SampleData result in ViewBag.Results)
+        {
+            <h3>@result.Name</h3>
+            <p>@result.Description</p>
+            <hr />
+        }
+    }
+}
