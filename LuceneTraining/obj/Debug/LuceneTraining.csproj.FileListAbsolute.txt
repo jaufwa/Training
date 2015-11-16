@@ -37,3 +37,4 @@ C:\Development\LuceneTraining\LuceneTraining\bin\ICSharpCode.SharpZipLib.dll
 C:\Development\LuceneTraining\LuceneTraining\bin\Lucene.Net.dll
 C:\Development\LuceneTraining\LuceneTraining\bin\Lucene.Net.pdb
 C:\Development\LuceneTraining\LuceneTraining\bin\Lucene.Net.xml
+C:\Development\LuceneTraining\LuceneTraining\obj\Debug\LuceneTraining.csprojResolveAssemblyReference.cache
